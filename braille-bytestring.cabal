@@ -3,8 +3,11 @@
 
 name:                braille-bytestring
 version:             0.1.0.0
-synopsis:            Displaying the bits in a bytestring as dots in Braille symbols
--- description:         
+synopsis:            "\164Ym\150\203|\178AW\183\220\173\150I\t" -> "⢤⡙⡭⢖⣋⡼⢲⡁⡗⢷⣜⢭⢖⡉⠉"
+description:         This library offers a more useful way of displaying binary data
+                     as the dots of Unicode Braille characters. This is far better readable
+                     than the standard string conversion (which requires lots of escaping)
+                     and also more concise and intuitive than a hex dump.
 homepage:            https://github.com/leftaroundabout/braille-bytestring
 license:             GPL-3
 license-file:        LICENSE
